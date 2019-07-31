@@ -284,7 +284,18 @@ npm install --save capacitor-firebase-auth
     end
     ```
 
+    Install the pods:
+    ```
+    npx cap update
+    ```
+
 4. Dispatch the designated callback URL to Facebook Kit in your `ios/App/App/AppDelegate.swift` file.
+
+    At the top of the file (under import Firebase):
+    ```
+    import FBSDKCoreKit
+    import FBSDKLoginKit
+    ```
 
     Facebook SDK >= 5.0.0
     ```
