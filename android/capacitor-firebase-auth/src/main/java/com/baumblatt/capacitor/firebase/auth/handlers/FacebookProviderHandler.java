@@ -17,7 +17,7 @@ import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.FacebookAuthProvider;
 
 public class FacebookProviderHandler implements ProviderHandler {
-    private static final String FACEBOOK_TAG = "TwitterProviderHandler";
+    private static final String FACEBOOK_TAG = "FacebookProviderHandler";
     public static final int RC_FACEBOOK_LOGIN = 0xface;
 
     private CapacitorFirebaseAuth plugin;
